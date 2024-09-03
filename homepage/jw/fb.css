@@ -1,0 +1,57 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align the form contents */
+    outline: 2px solid #ccc; /* Add an outline */
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.02px;
+    font-weight: bold;
+    color: #333; 
+}
+
+input[type="checkbox"],
+textarea {
+    margin-bottom: 0.02px; /* Adjust margin to move checkbox slightly down */
+    width: calc(100% - 18px); /* Make checkboxes and textarea full width */
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    vertical-align: middle; /* Align checkbox with label */
+}
+
+input[type="checkbox"] + label {
+    margin-bottom: 0.2px;
+    margin-left: 1px; /* Adjust margin to align checkbox with label */
+    color: #555; /* Adjust checkbox label color */
+    vertical-align: middle; /* Align checkbox with label */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

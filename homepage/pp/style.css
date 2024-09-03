@@ -1,0 +1,18 @@
+.mypage
+{
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+}
+.header
+{
+    justify-content: center;
+    margin-left: 100px;
+}
+.companies
+{
+    margin-left: 0px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
